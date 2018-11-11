@@ -44,7 +44,7 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 **_Data used in this tutorial_**
 
 * [U.S. State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)
-* [U.S. Climate Regions*](../conusclimateregion.zip)
+* [U.S. Climate Regions*](https://github.com/mushimu/qgis-tutorial/raw/master/conusclimateregion.zip)
 * [U.S. Urban Areas](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
 
 *Note*: The U.S. Climate Regions is polygon shapefile created by Tania Lopez based on the official [NOAA Climate Regions](https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-regions.php) 
@@ -63,7 +63,7 @@ In this tutorial, we will learn how to filter out data that we are interested in
 
 **_Data used in this tutorial_**
 * [U.S. State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)
-* [CONUS 2017 Maximum Daily Precipitation](../2017_dailyannualmaxima.tif)
+* [CONUS 2017 Maximum Daily Precipitation](https://github.com/mushimu/qgis-tutorial/raw/master/2017_dailyannualmaxima.tif)
 * [U.S. Urban Areas](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
 * [U.S. Cities and Towns](https://www.sciencebase.gov/catalog/item/581d051ae4b08da350d523ac)
 
