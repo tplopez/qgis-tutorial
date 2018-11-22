@@ -40,7 +40,7 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 2. Become familiar with QGIS Plugins
 3. Learn to navigate through the interface (Workflow)
 4. Load data into the Map Canvas
-5. Symbolize maps (Thematic/Chropleth maps for qualitative and quantitative attributes)
+5. Symbolize maps (Thematic/Choropleth maps for qualitative and quantitative attributes)
 6. Create and import map as .jpeg or .pdf
 
 **_Data used in this tutorial_**
@@ -51,7 +51,7 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 
 *Note*: The U.S. Climate Regions is polygon shapefile created by Tania Lopez based on the official [NOAA Climate Regions](https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-regions.php) 
 
-## Tutorial 3: More advance functions in QGIS
+## Tutorial 3: More advanced functions in QGIS
 
 In this tutorial, we will learn how to filter out data that we are interested in by accessing the data layer's Attribute table. We will then learn how to edit a layer via the Digitizing Tools Plugin. We will repeat the step 5 from the previous tutorial, however, instead of directly using the "U.S. Climate Regions" layer, we will join a standalone table with each state's climate region and join this table to the state polygon layer. We will learn how to load raster data (.tif files) into QGIS, discuss other raster data formats. We will then learn how to clip a raster layer using the boundaries of another layer and visualize different symbology for rasters. Using the Zonal Statistics plugin, we will compute the average 2017 daily maximum over each state. Finally, we will extract the 2017 daily maximum for each city with a population greater than 10,000 in 2014 by first identifying those cities in the U.S. Cities and Towns shapefile and then using the Point Sampling tool.
 
