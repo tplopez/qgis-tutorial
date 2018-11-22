@@ -17,7 +17,6 @@ This guide is only an overview of the tutorial. Each Tutorial section is organiz
 Remember, this is not a QGIS user manual. For more information on QGIS, please visit [the official QGIS manual](https://docs.qgis.org/2.8/en/docs/training_manual/index.html)
 
 ## Tutorial 1: Why QGIS or ESRI ArcGIS
-Overview:
 
 In this tutorial, we will briefly talk about the main differences between ESRI ArcGIS and QGIS. Although it is expected that those who attend the tutorial already completed the QGIS installation process, we will also briefly cover the installation for Mac OSX. In geographical information systems software, there are different types of data to deal with. There are two main types, vector, and raster data. We will go through the basics in this section since we will be explaining more in the next tutorials. Finally, I will point to different sources of free GIS data that I have used in the past.
 
