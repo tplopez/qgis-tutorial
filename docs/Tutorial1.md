@@ -20,5 +20,4 @@ _No data_
 [Slides](data/113018QGISTutorial.pdf)
 
 ---
-## Back to [**Main Page**](qgis-tutorial/)
-## Continue to [**Tutorial 2**](docs/data/Tutorial2.md)
+## Continue to [**Tutorial 2**](data/Tutorial2.md)

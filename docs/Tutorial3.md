@@ -79,4 +79,3 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS, 
     a) Open a new print composer from the Menu Bar --> Project and add the current map to the composer canvas. Click on Layout --> Add Legend, and click anywhere on the canvas. A legend will be added. Follow instructions during the tutorial to make fix the map legend. Once finished, export the map and save it as .png file.
 
 ---
-## Back to [**Main Page**](/)
