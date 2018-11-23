@@ -17,11 +17,11 @@ Remember, this is not a QGIS user manual. For more information on QGIS, please v
 
 ----
 
-# [Tutorial 1: Why QGIS or ESRI ArcGIS](https://github.com/mushimu/qgis-tutorial/blob/master/Tutorial1.md)
+# [Tutorial 1: Why QGIS or ESRI ArcGIS](docs/Tutorial1.md)
 
-# [Tutorial 2: Working with QGIS](https://github.com/mushimu/qgis-tutorial/blob/master/Tutorial2.md)
+# [Tutorial 2: Working with QGIS](docs/Tutorial2.md)
 
-# [Tutorial 3: Raster data and more advanced functions in QGIS](https://github.com/mushimu/qgis-tutorial/blob/master/Tutorial3.md)
+# [Tutorial 3: Raster data and more advanced functions in QGIS](docs/Tutorial3.md)
 
 ----
 
