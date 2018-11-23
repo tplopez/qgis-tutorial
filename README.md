@@ -3,7 +3,7 @@ Reference guide for EWRI GIS Tutorial Session.
 QGIS version 2.18.20
 
 # EWRI QGIS Tutorial Session
-Organized and conducted by Tania Lopez-Cantu
+Organized by Tania Lopez-Cantu
 
 November 30th, 2018
 
@@ -25,8 +25,26 @@ Remember, this is not a QGIS user manual. For more information on QGIS, please v
 
 ----
 
-## Provide Feedback
+# Provide Feedback
 
 The tutorial session is the very first session offered by the Environmental and Water Resources Graduate Student Chapter at CMU, and we hope to expand into other topics depending on the interest of the attendees. How can this tutorial be improved? Did you want other topics to be covered?
 
 We would like to hear your comments, please share them [here.](https://goo.gl/forms/DOeMAnqMDkviyD7w1)
+
+---
+
+# Useful resources
+
+### Databases:
+
+* TIGER products from the US Census Brueau [[link]](https://www.census.gov/geo/maps-data/data/tiger.html?#
+)
+* Western Pennsylvania Regional Data Center [[link]](http://www.wprdc.org/
+)
+
+* Pennsylvania Spatial Data Access (PASDA) [[link]]( http://www.pasda.psu.edu/
+)
+
+### Resources at CMU:
+
+* Librarian Jessica Benner (GIScientist) [[Contact Info]](https://www.library.cmu.edu/about/people/jessica-benner)

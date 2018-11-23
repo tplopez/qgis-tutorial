@@ -16,19 +16,19 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 **_Data used in this tutorial_**
 
 * [U.S. State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)
-* [U.S. Climate Regions*](docs/data/conusclimateregion.zip)
+* [U.S. Climate Regions](docs/data/conusclimateregion.zip)
 
 *Note*: The U.S. Climate Regions is polygon shapefile created by Tania Lopez based on the official [NOAA Climate Regions](https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-regions.php)
 
 
 1. Open QGIS. Same window as the one shown in Fig. 1 will be displayed in your screen.
 
-![Fig. 1 QGIS Interface with each element labeled. Source: QGIS Training Manual](https://docs.qgis.org/2.8/en/_images/gui_numbered.png)
-_Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manual](https://docs.qgis.org/2.8/en/docs/index.html)_
+    ![Fig. 1 QGIS Interface with each element labeled. Source: QGIS Training Manual](https://docs.qgis.org/2.8/en/_images/gui_numbered.png)
+    _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manual](https://docs.qgis.org/2.8/en/docs/index.html)_
 
 2. Identify each element of the QGIS GUI:
 
-    _a)_ Identify the __Map Canvas (3)__. This is were our data (e.g. maps, road networks, rivers, etc.) will be displayed.
+    _a)_ Identify the __Map Canvas (3)__. This is where our data (e.g. maps, road networks, rivers, etc.) will be displayed.
 
    _b)_ Identify the __Browser Panel (5)__. This panel becomes very handy when loading data into QGIS. The different buttons correspond to different types of data.
 
@@ -48,7 +48,7 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
 
     b) In the Plugins menu, go to the Settings tab, located in the menu to the left. Mark: _Show also experimental plugins_
 
-    c) In the Search bar at the top of the window, search for the following plugins that we will be using later: **Digitizing Tools, Zonal Statistics and Point Sampling**
+    c) In the Search bar at the top of the window, search for the following plugins that we will be using later: **Digitizing Tools, Zonal Statistics** and **Point Sampling**
 
     d) Go to the Installed tab and verify that all installed plugins in the previous step are checked. (This enables their use in QGIS).
 
@@ -62,11 +62,12 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
 
     c) Click on **STATE**
 
-    d) Download the cb_2017_us_state_500k.zip into the directory of your choice[^1]
+    d) Download the cb_2017_us_state_500k.zip into the directory of your choice[^*]
 
     e) Unzip the file. Notice that there are many files in the folder. Each file contains different information requried by QGIS to read and load correctly the data. For instance, the .prj file contains information about the [**Map Projection**](https://en.wikipedia.org/wiki/Map_projection).
 
     f) Go back to QGIS.
+
     g) In the Side Toolbar, click the first button. Same window as shown in figure 3 will be displayed in your screen.
 
     ![Fig. 3 - Add Vector Layer menu. Source: [Free and Open Source GIS Ramblings](https://anitagraser.com/)](https://underdark.files.wordpress.com/2011/06/add_wfs_geojson.png)
@@ -123,4 +124,4 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
 ### Back to [Main Page](https://mushimu.github.io/qgis-tutorial/)
 
 
-[^1]: All files to download in this page are State boundaries. The only difference is the resolution. For instance, the boundaries in cb_2017_us_state_20m.zip are drawn at high resolution and the file will be quite heavy. We are downloading the lowest resolution map since we will be just symbolizing the map.
+[^*]: All files to download in this page are State boundaries. The only difference is the resolution. For instance, the boundaries in cb_2017_us_state_20m.zip are drawn at high resolution and the file will be quite large. We are downloading the lowest resolution map since we will be just symbolizing the map.
