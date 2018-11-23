@@ -62,7 +62,7 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
 
     c) Click on **STATE**
 
-    d) Download the cb_2017_us_state_500k.zip into the directory of your choice [^1]
+    d) Download the cb_2017_us_state_500k.zip into the directory of your choice[^1]
 
     e) Unzip the file. Notice that there are many files in the folder. Each file contains different information requried by QGIS to read and load correctly the data. For instance, the .prj file contains information about the [**Map Projection**](https://en.wikipedia.org/wiki/Map_projection).
 
