@@ -17,8 +17,8 @@ In this tutorial, we will briefly talk about the main differences between ESRI A
 _No data_
 
 ### **_Tutorial 1 Slides_**
-[Slides](docs/data/113018QGISTutorial.pdf)
+[Slides](data/113018QGISTutorial.pdf)
 
 ---
-## Back to [**Main Page**](/)
-## Continue to [**Tutorial 2**](docs/data/Tutorial2)
+## Back to [**Main Page**](qgis-tutorial/)
+## Continue to [**Tutorial 2**](docs/data/Tutorial2.md)
