@@ -18,6 +18,8 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS, 
 
 *Note*: The 2017 Annual Maximum Daily Precipitation is a raster file created by Tania Lopez by first extracting the daily maximum at each gridcell center from the .25-degree latitude x 0.25 -degree longitude CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS gridded data. Raster was created by running an inverse distance weighting to create a continuous field. The original (in netCDF format) CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS gridded data can be found at this [link](https://www.esrl.noaa.gov/psd/data/gridded/data.unified.daily.conus.html).
 
+## **_Step-by-Step_**
+
 1. Load Raster data into the Map Canvas.
 
     a) Download (if you have not yet) the required data for this tutorial.

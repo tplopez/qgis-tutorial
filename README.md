@@ -41,7 +41,6 @@ We would like to hear your comments, please share them [here.](https://goo.gl/fo
 )
 * Western Pennsylvania Regional Data Center [[link]](http://www.wprdc.org/
 )
-
 * Pennsylvania Spatial Data Access (PASDA) [[link]]( http://www.pasda.psu.edu/
 )
 

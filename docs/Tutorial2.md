@@ -21,6 +21,8 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 *Note*: The U.S. Climate Regions is polygon shapefile created by Tania Lopez based on the official [NOAA Climate Regions](https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-regions.php)
 
 
+## **_Step-by-Step_**
+
 1. Open QGIS. Same window as the one shown in Fig. 1 will be displayed in your screen.
 
     ![Fig. 1 QGIS Interface with each element labeled. Source: QGIS Training Manual](https://docs.qgis.org/2.8/en/_images/gui_numbered.png)
