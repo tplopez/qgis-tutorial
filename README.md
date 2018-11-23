@@ -35,7 +35,7 @@ We would like to hear your comments, please share them [here.](https://goo.gl/fo
 
 # Useful resources
 
-### Databases:
+### Databases
 
 * TIGER products from the US Census Brueau [[link]](https://www.census.gov/geo/maps-data/data/tiger.html?#
 )
@@ -45,6 +45,6 @@ We would like to hear your comments, please share them [here.](https://goo.gl/fo
 * Pennsylvania Spatial Data Access (PASDA) [[link]]( http://www.pasda.psu.edu/
 )
 
-### Resources at CMU:
+### Resources at CMU
 
 * Librarian Jessica Benner (GIScientist) [[Contact Info]](https://www.library.cmu.edu/about/people/jessica-benner)

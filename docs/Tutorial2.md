@@ -62,7 +62,7 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 
     c) Click on **STATE**
 
-    d) Download the cb_2017_us_state_500k.zip into the directory of your choice[^*]
+    d) Download the cb_2017_us_state_500k.zip into the directory of your choice[^1]
 
     e) Unzip the file. Notice that there are many files in the folder. Each file contains different information requried by QGIS to read and load correctly the data. For instance, the .prj file contains information about the [**Map Projection**](https://en.wikipedia.org/wiki/Map_projection).
 
@@ -119,9 +119,8 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 
     x) The map is ready to be exported. Go to the QGIS Menu Bar, click on _Composer_ --> Export as image. A new window will be displayed, give a name to the image that will be generated and select a picture format. Once you have done that, another window where to specify the resolution and the size of the map will be shown. Keep the default resolution and check the box _Crop to content_.
 
+[^1]: All files to download in this page are State boundaries. The only difference is the resolution. For instance, the boundaries in cb_2017_us_state_20m.zip are drawn at high resolution and the file will be quite large. We are downloading the lowest resolution map since we will be just symbolizing the map.
+
 ----
 ### Continue to [Tutorial 3](Tutorial3.md)
 ### Back to [Main Page](https://mushimu.github.io/qgis-tutorial/)
-
-
-[^*]: All files to download in this page are State boundaries. The only difference is the resolution. For instance, the boundaries in cb_2017_us_state_20m.zip are drawn at high resolution and the file will be quite large. We are downloading the lowest resolution map since we will be just symbolizing the map.
