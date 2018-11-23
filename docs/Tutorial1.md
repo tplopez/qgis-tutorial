@@ -20,4 +20,6 @@ _No data_
 [Slides](data/113018QGISTutorial.pdf)
 
 ---
-## Continue to [**Tutorial 2**](Tutorial2.md)
+### Continue to [Tutorial 2](Tutorial2.md)
+
+### Back to [Main Page](https://mushimu.github.io/qgis-tutorial/)
