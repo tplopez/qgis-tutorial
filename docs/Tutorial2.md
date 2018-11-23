@@ -121,4 +121,4 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
     x) The map is ready to be exported. Go to the QGIS Menu Bar, click on _Composer_ --> Export as image. A new window will be displayed, give a name to the image that will be generated and select a picture format. Once you have done that, another window where to specify the resolution and the size of the map will be shown. Keep the default resolution and check the box _Crop to content_.
 
 ----
-## Continue to [**Tutorial 3**](data/Tutorial3.md)
+## Continue to [**Tutorial 3**](Tutorial3.md)
