@@ -16,7 +16,7 @@ In this tutorial, we will interact with the main elements of the QGIS interface.
 **_Data used in this tutorial_**
 
 * [U.S. State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)
-* [U.S. Climate Regions*](https://github.com/mushimu/qgis-tutorial/raw/master/conusclimateregion.zip)
+* [U.S. Climate Regions*](docs/data/conusclimateregion.zip)
 
 *Note*: The U.S. Climate Regions is polygon shapefile created by Tania Lopez based on the official [NOAA Climate Regions](https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-regions.php)
 
@@ -121,3 +121,5 @@ _Fig. 1 - QGIS Interface with each element labeled. Source: [QGIS Training Manua
     x) The map is ready to be exported. Go to the QGIS Menu Bar, click on _Composer_ --> Export as image. A new window will be displayed, give a name to the image that will be generated and select a picture format. Once you have done that, another window where to specify the resolution and the size of the map will be shown. Keep the default resolution and check the box _Crop to content_.
 
 ----
+## Back to [**Main Page**](/)
+## Continue to [**Tutorial 3**](docs/data/Tutorial3)

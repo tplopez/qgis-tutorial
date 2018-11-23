@@ -11,8 +11,8 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS, 
 
 **_Data used in this tutorial_**
 * [U.S. State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)
-* [CONUS 2017 Maximum Daily Precipitation](https://github.com/mushimu/qgis-tutorial/raw/master/2017_dailyannualmaxima.tif)
-* [Pittsburgh Coordinates]()
+* [CONUS 2017 Maximum Daily Precipitation](docs/data/2017_dailyannualmaxima.tif)
+* [Pittsburgh Coordinates](docs/data/PittsburghCoords.csv)
 
 *Note*: The 2017 Annual Maximum Daily Precipitation is a raster file created by Tania Lopez by first extracting the daily maximum at each gridcell center from the .25-degree latitude x 0.25 -degree longitude CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS gridded data. Raster was created by running an inverse distance weighting to create a continuous field. The original (in netCDF format) CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS gridded data can be found at this [link](https://www.esrl.noaa.gov/psd/data/gridded/data.unified.daily.conus.html).
 
@@ -77,3 +77,6 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS, 
 5. Make a map with legend and other professional map properties.
 
     a) Open a new print composer from the Menu Bar --> Project and add the current map to the composer canvas. Click on Layout --> Add Legend, and click anywhere on the canvas. A legend will be added. Follow instructions during the tutorial to make fix the map legend. Once finished, export the map and save it as .png file.
+
+---
+## Back to [**Main Page**](/)
