@@ -15,3 +15,6 @@ Click [this link](https://qgis.org/en/site/forusers/download.html) and download 
 The download will include several steps, for instance downloading and installing Python libraries (like NumPy).
 
 The installation steps are clear on the README file on the disk image, and each required package is labeled with a number in installation order. Follow the instructions, and QGIS should be properly installed in your computer.
+
+---
+### Back to [Main Page](https://mushimu.github.io/qgis-tutorial/)
