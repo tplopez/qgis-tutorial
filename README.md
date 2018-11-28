@@ -1,4 +1,7 @@
 # EWRI QGIS Tutorial Session
+
+Required QGIS version: `2.18`
+
 Organized by Tania Lopez-Cantu
 
 November 30th, 2018
@@ -9,7 +12,6 @@ In this tutorial session, we will introduce the use of QGIS and work through thr
 
 Each Tutorial section is organized by first stating the objectives that the tutorial aims to cover followed by the data to be used in the tutorial with its respective download links and a link to the different steps within the tutorial. If there is no download link for a particular dataset, it can be downloaded through this repository.
 
-Required QGIS version: 2.18
 
 Remember, this is not a QGIS user manual. For more information on QGIS, please visit [the official QGIS manual](https://docs.qgis.org/2.8/en/docs/training_manual/index.html).
 
