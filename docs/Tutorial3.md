@@ -26,13 +26,13 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS. 
 
     b) On the same project, click on `Add Raster Layer` button in the Side Tool Menu (second from the top). This button is only for loading raster (.tif) data into the map canvas. Select the 2017_dailyannualmaxima.tif file. Uncheck the **ClimateRegions** layer in the Layers Panel. You will notice that now we are not able to see the state boundaries in the Map Canvas, because they have been covered by the new raster file that we added. In the Layers Panel, click and move the **cb_2017** layer on top of the **2017_dailyannualmaxima**. We now can't see the **2017_dailyannualmaxima** because the state polygons are filled with color. Let's change this style.
 
-    c) Double-click on the **cb_2017** layer. In the _Style_ tab, click `Simple fill` on the first white box. Select `Outline: Simple line` as _Symbol layer type_ and click Apply and OK buttons at the bottom of the window.
+    c) Double-click on the **cb_2017** layer. In the _Style_ tab, click _Simple fill_ on the first white box. Select _Outline: Simple line_ as _Symbol layer type_ and click Apply and OK buttons at the bottom of the window.
 
-    d) Now open the Layer Properties Menu for **2017_dailyannualmaxima** and change the render type to _Singleband pseudocolor_. Choose `Discrete interpolation`, and click the `Classify` button below the mode. Click Apply and OK buttons at the bottom of the window.
+    d) Now open the Layer Properties Menu for **2017_dailyannualmaxima** and change the render type to _Singleband pseudocolor_. Choose _Discrete interpolation_, and click the _Classify_ button below the mode. Click Apply and OK buttons at the bottom of the window.
 
-2. Compute statistics within specific boundaries using the `Zonal Statistics plugin`
+2. Compute statistics within specific boundaries using the `Zonal Statistics` plugin
 
-    a) Locate the `Zonal Statistics Plugin` menu. _Hint:_ Recall that Help in the QGIS Menu bar can show you the path if you cannot readily find the tool. A window similar as figure 1 will be displayed. This tool will compute statistics within the zones that we specify. We will compute the average 2017 daily maximum precipitation for each state.
+    a) Locate the `Zonal Statistics` plugin menu. _Hint:_ Recall that Help in the QGIS Menu bar can show you the path if you cannot readily find the tool. A window similar as figure 1 will be displayed. This tool will compute statistics within the zones that we specify. We will compute the average 2017 daily maximum precipitation for each state.
 
 
     ![Fig 1. - Zonal Statistics Window. Source: [QGIS User Guide] (https://docs.qgis.org/2.18/en/docs/user_manual/)](https://www.qgis.org/tr/_images/d86b8eb8a72d26a0fcb0bf043c9189e14a4ae125.png)
@@ -40,9 +40,9 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS. 
 
     b) By default, the **2017_dailyannualmaxima** will be selected because there are no more raster layers loaded in the working space. Select the **cb_2017** layer for the Polygon layer containing the zones. Choose a name for the output column prefix, and select Mean, Median and Standard Deviation as Statistics. Click OK. (This might take some time depending on your computer specs, and for future reference,the more zones you have, the longer it will take.)
 
-    c) Open the **cb_2017** layer `Attribute Table`. You will see that three new columns have been added as features, starting with the prefix that you selected. Let's create a Choropleth for the mean 2017 daily maximum precipitation.
+    c) Open the **cb_2017** layer _Attribute Table_. You will see that three new columns have been added as features, starting with the prefix that you selected. Let's create a Choropleth for the mean 2017 daily maximum precipitation.
 
-    d) Open the **cb_2017** Layer Properties Menu. Go to the `Style` tab and, while being on the Single Symbol style, choose `Simple fill` for Symbol Layer type. Now, instead of Single Symbol, select `Graduated`. This style is suitable for quantitative data. Select the _yourprefix_mean_ column for Column. Note that `Equal Interval` is now selected. Click `Classify` below the big white box, and then on that same box click on the `Histogram` tab. Verify that data is well distributed on each block. In this case, the data seems to extend until 130 mm, we should try other bin classification. Click on the `Classes` tab to go back to the bins. This time select `Quantile` and click `Classify`. Verify again the Histogram. Click Apply and OK buttons at the bottom of the window.
+    d) Open the **cb_2017** Layer Properties Menu. Go to the _Style_ tab and, while being on the Single Symbol style, choose _Simple fill_ for Symbol Layer type. Now, instead of Single Symbol, select _Graduated_. This style is suitable for quantitative data. Select the _yourprefix_mean_ column for Column. Note that _Equal Interval_ is now selected. Click _Classify_ below the big white box, and then on that same box click on the _Histogram_ tab. Verify that data is well distributed on each block. In this case, the data seems to extend until 130 mm, we should try other bin classification. Click on the _Classes_ tab to go back to the bins. This time select _Quantile_ and click _Classify_. Verify again the Histogram. Click Apply and OK buttons at the bottom of the window.
 
     e) Label the **cb_2017** with each state name as in Tutorial 2.
 
@@ -72,15 +72,15 @@ In this tutorial, we will learn how to load raster data (.tif files) into QGIS. 
     ![Fig 2. - Zonal Statistics Window. Source: [QGIS User Guide] (https://docs.qgis.org/2.18/en/docs/user_manual/)](https://docs.qgis.org/2.18/en/_images/function_list.png)
     _Fig 2. - Zonal Statistics Window. Source: [QGIS User Guide](https://docs.qgis.org/2.18/en/docs/user_manual/)_
 
-    b) Click on the arrow on the left of `Fields and Values` on the menu located in the middle of the window. Other fields will be displayed below, then click on _ClimRegio_. Click on the _All unique_ button at the bottom right corner of the window. All unique names of the **ClimateRegions** layer will appear in the upper box. Double-click on _Northeast_. This action will add 'Northeast' on the leftmost white box. Before 'Northeast' write the following: "Clim_Regio" is 'Northeast'. This expression will select the polygon that meets the condition. Click on the `Select` button at the bottom right corner. Close the window and go back to the main QGIS interface. Apparently, nothing happened but if you check the Status bar, on the bottom left corner, you will see that it says `"1 feature(s) selected on layer Clim_Regio"`. Uncheck the **cb_2017** and the **2017_dailyannualmaxima** so that the only visible layer is the **ClimateRegions**. You will note that the Northeast polygon is yellow colored, meaning that is currently selected.
+    b) Click on the arrow on the left of _Fields and Values_ on the menu located in the middle of the window. Other fields will be displayed below, then click on _ClimRegio_. Click on the _All unique_ button at the bottom right corner of the window. All unique names of the **ClimateRegions** layer will appear in the upper box. Double-click on _Northeast_. This action will add 'Northeast' on the leftmost white box. Before 'Northeast' write the following: "Clim_Regio" is 'Northeast'. This expression will select the polygon that meets the condition. Click on the _Select_ button at the bottom right corner. Close the window and go back to the main QGIS interface. Apparently, nothing happened but if you check the Status bar, on the bottom left corner, you will see that it says `"1 feature(s) selected on layer Clim_Regio"`. Uncheck the **cb_2017** and the **2017_dailyannualmaxima** so that the only visible layer is the **ClimateRegions**. You will note that the Northeast polygon is yellow colored, meaning that is currently selected.
 
-    c) Using the `Zoom to selection` (magnifying class with the yellow square button) in the Tool bar, zoom in the selected polygon, in this case the Northeast polygon from the **ClimateRegions**.
+    c) Using the `Zoom to selection` button (magnifying class with the yellow square button) in the Tool bar, zoom in the selected polygon, in this case the Northeast polygon from the **ClimateRegions**.
 
     d) Make visible the **cb_2017** and the **2017_dailyannualmaxima** again.
 
 5. Make a map with legend and other professional map properties.
 
-    a) Open a new print composer from the Menu Bar --> `Project` and add the current map to the composer canvas. Click on `Layout` --> `Add Legend`, and click anywhere on the canvas. A legend will be added. Follow instructions during the tutorial to make fix the map legend. Once finished, export the map and save it as .png file.
+    a) Open a new print composer from the Menu Bar --> Project and add the current map to the composer canvas. Click on Layout --> Add Legend, and click anywhere on the canvas. A legend will be added. Follow instructions during the tutorial to make fix the map legend. Once finished, export the map and save it as .png file.
 
 ---
 
