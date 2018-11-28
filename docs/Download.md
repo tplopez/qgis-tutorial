@@ -8,7 +8,9 @@ QGIS is available for a variety of operative systems. The latest version QGIS is
 
 ## Download Version 2.18
 
-Click [this link](https://qgis.org/en/site/forusers/download.html) and download the **version 2.18 for your operative system**.
+**Important: If you have an older version of QGIS installed in your computer, please completely erase it before attempting to download version 2.18**
+
+Click [this link](https://qgis.org/en/site/forusers/download.html) and download the **version 2.18** for your operative system.
 
 The download will include several steps, for instance downloading and installing Python libraries (like NumPy).
 

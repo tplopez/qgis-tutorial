@@ -1,6 +1,6 @@
 # README
 
-QGIS version 2.18.20
+Required QGIS version: 2.18
 
 ## EWRI QGIS Tutorial Session
 Organized by Tania Lopez-Cantu
@@ -49,3 +49,6 @@ The tutorial session is the very first session offered by the Environmental and 
 We would like to hear your comments, please share them [here.](https://goo.gl/forms/DOeMAnqMDkviyD7w1)
 
 ---
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
