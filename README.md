@@ -1,8 +1,4 @@
-# README
-
-Required QGIS version: 2.18
-
-## EWRI QGIS Tutorial Session
+# EWRI QGIS Tutorial Session
 Organized by Tania Lopez-Cantu
 
 November 30th, 2018
@@ -12,6 +8,8 @@ As environmental engineers, we often need to work with data that has an associat
 In this tutorial session, we will introduce the use of QGIS and work through three different tutorials targeted to no-experience and beginner users. The purpose is to give the attendees a general idea about the capabilities of this software. This tutorial is not intended to cover everything that can be done in QGIS (for that there is a course offered in the department, and another in Heinz, that uses ESRI ArcGIS!) but instead give a chance to graduate students who are interested or curious about this software, and by attending this tutorial and grasping the basics, might find it useful for their research/coursework/future careers to deepen their knowledge by attending the courses offered at CMU.
 
 Each Tutorial section is organized by first stating the objectives that the tutorial aims to cover followed by the data to be used in the tutorial with its respective download links and a link to the different steps within the tutorial. If there is no download link for a particular dataset, it can be downloaded through this repository.
+
+Required QGIS version: 2.18
 
 Remember, this is not a QGIS user manual. For more information on QGIS, please visit [the official QGIS manual](https://docs.qgis.org/2.8/en/docs/training_manual/index.html).
 
