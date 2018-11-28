@@ -1,8 +1,8 @@
-Reference guide for EWRI GIS Tutorial Session.
+# README
 
 QGIS version 2.18.20
 
-# EWRI QGIS Tutorial Session
+## EWRI QGIS Tutorial Session
 Organized by Tania Lopez-Cantu
 
 November 30th, 2018
@@ -13,9 +13,10 @@ In this tutorial session, we will introduce the use of QGIS and work through thr
 
 Each Tutorial section is organized by first stating the objectives that the tutorial aims to cover followed by the data to be used in the tutorial with its respective download links and a link to the different steps within the tutorial. If there is no download link for a particular dataset, it can be downloaded through this repository.
 
-Remember, this is not a QGIS user manual. For more information on QGIS, please visit [the official QGIS manual](https://docs.qgis.org/2.8/en/docs/training_manual/index.html)
+Remember, this is not a QGIS user manual. For more information on QGIS, please visit [the official QGIS manual](https://docs.qgis.org/2.8/en/docs/training_manual/index.html).
 
 ----
+# [Software download](docs/Download.md)
 
 # [Tutorial 1: Why QGIS or ESRI ArcGIS](docs/Tutorial1.md)
 
@@ -23,15 +24,6 @@ Remember, this is not a QGIS user manual. For more information on QGIS, please v
 
 # [Tutorial 3: Raster data and more advanced functions in QGIS](docs/Tutorial3.md)
 
-----
-
-# Provide Feedback
-
-The tutorial session is the very first session offered by the Environmental and Water Resources Graduate Student Chapter at CMU, and we hope to expand into other topics depending on the interest of the attendees. How can this tutorial be improved? Did you want other topics to be covered?
-
-We would like to hear your comments, please share them [here.](https://goo.gl/forms/DOeMAnqMDkviyD7w1)
-
----
 
 # Useful resources
 
@@ -47,3 +39,13 @@ We would like to hear your comments, please share them [here.](https://goo.gl/fo
 ### Resources at CMU
 
 * Librarian Jessica Benner (GIScientist) [[Contact Info]](https://www.library.cmu.edu/about/people/jessica-benner)
+
+----
+
+# Provide Feedback
+
+The tutorial session is the very first session offered by the Environmental and Water Resources Graduate Student Chapter at CMU, and we hope to expand into other topics depending on the interest of the attendees. How can this tutorial be improved? Did you want other topics to be covered?
+
+We would like to hear your comments, please share them [here.](https://goo.gl/forms/DOeMAnqMDkviyD7w1)
+
+---
