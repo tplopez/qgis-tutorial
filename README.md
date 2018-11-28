@@ -24,7 +24,7 @@ Remember, this is not a QGIS user manual. For more information on QGIS, please v
 
 # [Tutorial 3: Raster data and more advanced functions in QGIS](docs/Tutorial3.md)
 
-
+---
 # Useful resources
 
 ### Databases
